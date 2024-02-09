@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <table border="2" width="50%" height="600px" align="center" bgcolor="#808080" cellpadding="10">
+        <!--Row 1-->
+        <thead>
+            <tr>
+            
+                    <th colspan="2" style="font-weight: 700; font-family: Arial, Helvetica, sans-serif; font-size: large; ">MY PORTFOLIO</th>
+            
+            </tr>
+        </thead>
+
+        <!--Row 2-->
+            <tr>
+                <td>
+                    <font style="font-size: 6;" color="white">Hi, I'm Sreenil A <br></font>
+                    <font style="font-size: 5;" color="white">Web Developer</font>
+                    <font style="font-size: 4;" color="#ff8a00">
+                        <h3><b><u>Education</u></b></h3>
+                        <ol>
+                            <li>
+                                <p>Bachlor of Technology in Computer Science<br>2022<br>KTU</p>
+                            </li>
+                            <li>
+                                <p>Diploma in Comuter Engineering<br>2018<br>KERALA TECHNICAL BOARD</p>
+                            </li>
+                        
+                            <li>
+                                <p>Higher Secondary Education<br>2015<br>STATE BOARD OF KERALA</p>
+                            </li>
+                            <li>
+                                <p>Secondary School Leaving Certificate<br>2013<br>STATE BOARD OF KERALA</p>
+                            </li>
+                        </ol>
+
+                        <h3><u>Contact</u></h3>
+                        <ul>
+                            <li>
+                                <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                <span class="text">+91 8848302591</span>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                                <span class="text">sreenilankath@gmail.com</span>
+                            </li>
+                        </ul>
+                    </font>
+                </td>
+                <td>
+                    <picture>
+                        <img src="assets/images/sreenil.JPG" alt="">
+                    </picture>
+                </td>
+            </tr>
+
+        <!--Row 3-->
+            <tr>
+                <td><iframe src="https://getbootstrap.com/" height="200" width="300" title="Iframe Example"></iframe></td>
+
+                <td>
+                    <video width="400" height="300" controls autoplay muted>
+                        <source src="assets/video/SampleVideo.mp4" type="video/mp4">
+                    </video>
+                </td>
+            </tr>
+
+        <!--Row 4-->
+            <tr>
+                <td>
+                    <audio width="400" height="300" controls autoplay muted>
+                        <source src="assets/audio/sampleaudio.mp3" type="audio/mp3">
+                    </audio>
+                </td>
+            </tr>
+
+        <!--Row 5-->
+            <form>
+                <!--first name-->
+                <label>First Name</label>
+                <input type="text" placeholder="Enter the First name"><br>
+
+                <!--Last name-->
+                <label>Last Name</label>
+                <input type="text" placeholder="Enter the Last name"><br>
+
+                <!--Gender-->
+                <label>Choose Gender</label><br>
+                <label><input type="radio" name="gender" value="male">Male</label>
+                <label><input type="radio" name="gender" value="female">Female</label><br>
+
+                <!--Language-->
+                <label>Select Language</label><br>
+                <label><input type="checkbox" name="language" value="English">English</label>
+                <label><input type="checkbox" name="language" value="Hindi">Hindi</label>
+                <label><input type="checkbox" name="language" value="Malayalam">Malayalam</label><br>
+
+                <!--Countries-->
+                <label>Countries</label>
+                <select>
+                    <option value="India">India</option>
+                    <option value="China">China</option>
+                    <option value="Japan">Japan</option>
+                </select><br>
+
+                <!--Message-->
+                <label>Message</label>
+                <textarea placeholder="Enter Message"></textarea><br>
+
+                <!--Submit-->
+                <input type="submit" value="submit">
+            </form>
+    </table>
+</body>
+</html>
